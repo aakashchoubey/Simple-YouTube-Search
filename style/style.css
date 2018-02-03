@@ -1,0 +1,39 @@
+body {
+    padding-bottom: 20px;
+}
+.search-bar{
+    margin: 20px auto;
+}
+
+.search-bar input{
+    width: 75%;
+}
+
+.search-bar.light input{
+
+}
+.search-bar.light input:focus{
+    outline: none;
+}
+.search-bar.dark input{
+    background: #444;
+    color: #ddd;
+    border-color: #222;
+}
+.search-bar.dark input:focus{
+    background: #333;
+    color: #ddd;
+    outline: none;
+}
+
+.video-item img {
+    max-width: 64px;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.list-group-item:hover {
+    background-color: #ccc;
+}
